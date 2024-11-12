@@ -1,17 +1,22 @@
-.linklist {
-  display: inline;
-}
-
-.navbar {
-  display: block;
-}
-
 a {
   text-decoration: none;
 }
 
-ul {
+.navbar {
+  display: block;
+  background-color: rebeccapurple;
+}
+
+.navbar h1 {
+  color: white;
+}
+
+.navbar ul {
   list-style: none; /*убираем маркеры списка*/
   margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
   padding-left: 0; /*убираем левый отступ, равный 40px*/
+}
+
+.navbar li {
+  display: inline;
 }
