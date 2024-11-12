@@ -1,16 +1,7 @@
 .myheader {
-  display: flex;
-  height: 135px;
-  background-color: #ffffff;
+  display: block
 }
 
-.myheader > p {
-  font-family: Lato;
-  font-size: 14px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  width: 1366px;
+a {
+  text-decoration: none;
 }
