@@ -2,6 +2,10 @@
   display: inline;
 }
 
+.navbar {
+  display: block;
+}
+
 a {
   text-decoration: none;
 }
